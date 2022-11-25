@@ -4,55 +4,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.content{
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
-	flex-direction: column;
-}
-
-.logo img{
-	width: 150px;
-}
-.coming{
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.coming h1{
-	font-size: 24px;
-	font-weight: 500;
-}
-.followus{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.we{
-	font-size: 16px;
-}
-.followtext h1{
-	font-size: 20px;
-	font-weight: 400;
-}
-.icons{
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	display: flex;
-	gap: 24px;
-	flex-wrap: wrap;
-	color: black;
-	font-size: 20px;
-}
-.icons a{
-	color: black;
-}
-body{
-	margin: 0px auto;
-	
-}
+.
 /* New css */
 .main{
 	height: 100vh;
@@ -73,7 +25,7 @@ body{
 .section{
 	margin-top: 10vh;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 10vw;
 	align-items: center;
 	justify-content: center;
