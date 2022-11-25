@@ -93,3 +93,10 @@ body{
 	font-weight: 400;
 	line-height: 1.7;
 }
+
+.working{
+	color: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
