@@ -23,7 +23,7 @@
 .section{
 	margin-top: 10vh;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	gap: 10vw;
 	align-items: center;
 	justify-content: center;
@@ -31,9 +31,7 @@
 	margin-right: 10%;
 	
 }
-.text{
-	/* background-color: red; */
-}
+
 .text p{
 	font-weight: 400;
 	letter-spacing: 1vw;
