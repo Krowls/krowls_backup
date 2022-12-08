@@ -19,7 +19,7 @@ function Landing() {
       <Subscribe />
       <div className="followuson">
         <h4>Follow us on</h4>
-        <div className="icon">
+        <div className="icon1">
           <a href="https://www.instagram.com/krowls.design/" rel="Instagram noreferrer" target="_blank" 
             ><FontAwesomeIcon icon={faInstagram} /></a>
           <a

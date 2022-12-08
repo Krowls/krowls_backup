@@ -51,13 +51,13 @@ body {
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
-.icon {
+.icon1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
-.icon a {
+.icon1 a {
   width: 50px;
   height: 50px;
   color: white;
@@ -72,12 +72,10 @@ body {
   
   /* flex-wrap: wrap; */
 }
-.icon a:hover {
+.icon1 a:hover {
   background-color: #fcc31e;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border: 1px solid #fcc31e;
   transition: 0.3s;
 }
-.icon a i {
-  padding-bottom: -5px;
-}
+  
