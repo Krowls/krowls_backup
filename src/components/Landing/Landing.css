@@ -69,6 +69,7 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  
   /* flex-wrap: wrap; */
 }
 .icon a:hover {
