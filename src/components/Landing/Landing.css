@@ -37,52 +37,7 @@ body {
   font-size: 50px;
   margin: 0px;
 }
-@media screen and (max-width: 768px) {
-  .main_text h1 {
-    font-size: 2rem;
-  }
-}
-.email {
-  /* max-width: 600px; */
-  display: inline-block;
-}
-.email_notify {
-  margin-top: 30px;
-  /* display: flgridex; */
-  width: 50vw;
-}
-#myForm {
-  display: grid;
-  grid-template-columns: 60% 30%;
-  gap: 20px;
-}
-@media screen and (max-width: 600px) {
-  #myForm {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  .email_notify {
-    margin-top: 30px;
-    display: flgridex;
-    width: 70vw;
-  }
-}
-.email_notify input {
-  height: 50px;
-  border-radius: 1000px;
-  padding-left: 20px;
-  border: none;
-}
 
-.email_notify button {
-  height: 55px;
-  border-radius: 1000px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #fcc31e;
-  cursor: pointer;
-  border: none;
-}
 .followuson {
   text-align: center;
   /* bottom: 40px;
@@ -96,13 +51,13 @@ body {
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
-.icon {
+.icon1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
-.icon a {
+.icon1 a {
   width: 50px;
   height: 50px;
   color: white;
@@ -114,14 +69,13 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  
   /* flex-wrap: wrap; */
 }
-.icon a:hover {
+.icon1 a:hover {
   background-color: #fcc31e;
-  color: #111111;
+  color: rgb(0, 0, 0);
   border: 1px solid #fcc31e;
   transition: 0.3s;
 }
-.icon a i {
-  padding-bottom: -5px;
-}
+  
