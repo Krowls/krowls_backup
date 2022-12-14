@@ -12,7 +12,7 @@ function Landing() {
       </div>
       <div className="main_text">
         <div className="text">
-          <p>Stay Tuned......</p>
+          <p>Stay Tuned</p>
           <h1>We Are Launching Soon</h1>
         </div>
       </div>
