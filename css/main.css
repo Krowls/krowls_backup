@@ -2283,6 +2283,15 @@ form .inputs-description {
   width: auto;
   max-width: 130px;
 }
+@media only screen and (min-width: 1600px) {
+  .header__logo {
+    padding-top: 0.4rem;
+  }
+  .header__logo img {
+    width: 100px;
+    max-width: 164px;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .header__logo {
     padding-top: 0.4rem;
@@ -2300,7 +2309,7 @@ form .inputs-description {
 @media only screen and (min-width: 1200px) {
   .header__logo img {
     width: auto;
-    max-width: none;
+    max-width: 120px;
   }
 }
 @media only screen and (min-width: 1400px) {
