@@ -1,6 +1,9 @@
 import React from 'react';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
+import HeaderTwo from '../common/header/HeaderTwo';
+import HeaderThree from '../common/header/HeaderThree';
+import HeaderFour from '../common/header/HeaderFour';
 import SEO from '../common/SEO';
 import AboutOne from '../component/about/AboutOne';
 import BannerOne from '../component/banner/BannerOne';
@@ -23,7 +26,7 @@ const DigitalAgency = () => {
         <SEO title="Digital Agency"/>
         <ColorSwitcher />
         <main className="main-wrapper">
-            <HeaderOne />
+            <HeaderFour />
             <BannerOne />
             <div className="section section-padding-2 bg-color-dark">
                 <div className="container">

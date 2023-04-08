@@ -18,7 +18,7 @@ const CreativeAgency = () => {
 
     return (
         <>
-        <SEO title="Creative Agency"/>
+        <SEO title="Krowls"/>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderTwo />
