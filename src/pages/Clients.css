@@ -1,0 +1,22 @@
+.marq-images{
+    background-color: #111111;
+}
+.marq-images img{
+    padding-right: 10vw;
+    height: 50px;
+    overflow: hidden;
+    animation: scroll-left 30s linear infinite;
+    /* filter: grayscale(); */
+}
+.marq-images img:hover{
+    filter: none;
+}
+
+@keyframes scroll-left{
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      left: translateY(-100%);
+    }
+}

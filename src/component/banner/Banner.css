@@ -1,0 +1,18 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button-grp{
+    display: flex !important;
+    align-items: center;
+    gap:40px;
+}
+@media  screen and (max-width:450px) {
+    .button-grp{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+}
